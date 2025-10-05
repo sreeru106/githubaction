@@ -4,12 +4,12 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      -name: execute linux commands
-       run: echo "Hello All"
+      - name: execute linux commands
+        run: echo "Hello All"
   job2:
     runs-on: ubuntu-24.04
     steps:
-      -name: Execute set of linus commands
-       run:
+      - name: Execute set of linus commands
+        run:
          hostname -s 
          echo "Thanks you all"
