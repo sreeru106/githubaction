@@ -11,5 +11,5 @@ jobs:
     steps:
       - name: Execute set of linus commands
         run:
-         hostname -s 
-         echo "Thanks you all"
+          hostname -s 
+          echo "Thanks you all"
