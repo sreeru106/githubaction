@@ -13,4 +13,4 @@ jobs:
       - name: Execute set of linus commands
         run:
          hostname -s 
-         echo "Thank you all"
+         
